@@ -1,0 +1,81 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    
+  </body>
+  </html>
+  <BR>
+
+    <h1 style="color: blue;"><CEnter>THIS IS HTML FORM</CEnter></h1>
+    <form action="backend.php">
+        <label for="name">DETAILS</label><BR>
+    <BR>
+        <div>
+          NAME : <input type="text" name="MyName" id="name">
+        </div>
+     <br>   
+    <div>
+        NUMBER: <input type="text" name="My Role">
+    </dIV>
+    <br>
+     <div>
+         EMAIL ID: <input type="email" name=" My Email">
+    </div>
+    <br>
+         <div>
+            DATE: <input type="date" name="My Date">
+         </div>
+            <BR>
+        <div>
+            NIC NUMBER: <input type="number" number="My number">
+        </div>
+        <br>
+        <div>
+            ARE YOU ELIGIBLE  <input type="checkbox" name="My eligibality" checked>
+        </div> 
+        <br>
+        <div>
+         GENDER: MALE <input type="Radio" name="My Gender">
+                 FEMALE <input type="Radio" name="My Gender">
+                 OTHER <input type="Radio" name="MY Gender"> 
+        </div>
+        <br>
+        <div>
+            <label for="COURSE">COURSE:</label>
+            <select name=" MY COURSE" id="COURSE">
+             <OPTIon value="H">HTML</OPTIon> 
+            <OPTIOn value="C">CSS</OPTIOn> 
+            <OPTIon value="J.S">JAVA.SCRIPT</OPTIon>
+            <OPtion value="IT" selected>ARTIFICIAL INTELIGENCE</OPtion>
+            </select>
+        </div>
+        <br>
+        <div>
+          FATHER NIC: <input type="TEXT BOX " Name="MY FATHER NIC"> 
+        </div>
+        <br>
+        <div>
+          NATIONALITY: <INPUT type="TEXT BOX" name="NATIONALITY">
+            </div>
+            <BR>
+         <div>
+          Write About YourSelf :<br><textarea name="MY Text" id="" cols="`90" rows="5"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="submit Now">
+            <input type="Reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+</html>
+</div>
+
+
+</body>
+</html>
